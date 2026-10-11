@@ -1,0 +1,12 @@
+.git
+.venv
+venv
+__pycache__
+*.pyc
+.env
+.DS_Store
+.pytest_cache
+mlruns/
+mlflow.db
+data/
+*.egg-info
