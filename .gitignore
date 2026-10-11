@@ -31,3 +31,4 @@ node_modules/
 
 # uv
 uv.lock
+docs/
