@@ -1,6 +1,9 @@
 # Python
 __pycache__/
 *.py[cod]
+*.egg-info/
+dist/
+build/
 .venv/
 venv/
 
@@ -15,15 +18,16 @@ venv/
 
 # MLflow
 mlruns/
+mlflow.db
+
+# Data (datasets + model weights)
+data/
 
 # Logs
 logs/
 
-# Datasets
-datasets/
-
-# Model checkpoints
-models/
-
 # Node
 node_modules/
+
+# uv
+uv.lock

@@ -1,0 +1,18 @@
+dataset:
+  name: common_voice_scripted
+  dataset_id: cmryvrc6i014vo90786kriix5
+  language: en-US-south
+  split: test
+  num_samples: 200
+  seed: 42
+  sampling_rate: 16000
+  max_duration_s: 30
+
+model:
+  name: whisper-tiny
+
+inference:
+  device: auto
+  batch_size: 1
+  language: en
+  task: transcribe
