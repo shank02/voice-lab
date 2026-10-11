@@ -8,8 +8,6 @@
 
 **Status:** Draft
 
-**Author:** Shashank Patoju
-
 ---
 
 # 1. Overview
